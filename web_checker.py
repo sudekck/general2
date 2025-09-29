@@ -2,13 +2,13 @@ import time
 import requests
 from bs4 import BeautifulSoup
 
-URL = "https://www.bbc.com/news"  # Test için bir haber sitesini kullanıyoruz
-KEYWORD = "Ukraine"  # Bu kelimeyi sayfada arayacak
+URL = "https://www.bbc.com/news"  
+KEYWORD = "Ukraine" 
 
 def check_website():
     try:
         response = requests.get(URL)
-        response.raise_for_status()  # Bağlantı hatası olursa hata verir
+        response.raise_for_status()  
         soup = BeautifulSoup(response.text, "html.parser")
 
         if KEYWORD.lower() in soup.get_text().lower():
@@ -22,4 +22,4 @@ def check_website():
 while True:
     check_website()
     print("Tekrar kontrol etmek için 60 saniye bekleniyor...\n")
-    time.sleep(60)  # 60 saniye bekle ve tekrar çalıştır
+    time.sleep(60)  
