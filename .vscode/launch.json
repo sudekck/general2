@@ -1,0 +1,47 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+        "type": "java",
+        "name": "sude_kucukoglu4",
+        "request": "launch",
+        "mainClass": "sude_kucukoglu4",
+        "projectName": "java_df9ceae4"
+    },
+    {
+        "type": "java",
+        "name": "sude_kucukoglu3",
+        "request": "launch",
+        "mainClass": "sude_kucukoglu3",
+        "projectName": "java_df9ceae4"
+    },
+    {
+        "type": "java",
+        "name": "sude_kucukoglu2",
+        "request": "launch",
+        "mainClass": "sude_kucukoglu2",
+        "projectName": "java_df9ceae4"
+    },
+    {
+        "type": "java",
+        "name": "sude1_kucukoglu",
+        "request": "launch",
+        "mainClass": "sude1_kucukoglu",
+        "projectName": "java_df9ceae4"
+    },
+    {
+        "type": "java",
+        "name": "sude_kucukoglu",
+        "request": "launch",
+        "mainClass": "sude_kucukoglu",
+        "projectName": "java_df9ceae4"
+    },
+    {
+        "type": "java",
+        "name": "Debug (Launch) - sude_kucukoglu",
+        "request": "launch",
+        "mainClass": "sude_kucukoglu",
+        "projectName": "lab hw/java"
+    }
+]
+}
