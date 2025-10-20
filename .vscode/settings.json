@@ -1,4 +1,14 @@
+<<<<<<< HEAD
 {
     "python-envs.defaultEnvManager": "ms-python.python:system",
     "python-envs.pythonProjects": []
 }
+=======
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ]
+}
+>>>>>>> 3ea568f (Initial commit: sude_kck project)
